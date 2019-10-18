@@ -5,9 +5,14 @@ class Hero
   def initialize(name, hp)
     @name = name
     @hp = hp
+    @attack = attack
   end
 
   def dead?
     @hp <= 0
   end
+
+  def 
+
+  def 
 end

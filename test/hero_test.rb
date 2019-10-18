@@ -16,11 +16,11 @@ class HeroTest < Minitest::Test
   end
 
   def test_name
-    assert_equal(@hero.name,'ああああ')
+    assert_equal(@hero.name,'カズキ')
   end
 
   def test_hp
-    assert_equal(@hero.name, 'ああああ')
+    assert_equal(@hero.name, 'HP')
   end
 
   def test_hp
@@ -35,4 +35,11 @@ class HeroTest < Minitest::Test
     assert_equal(hero_hp1.dead?, false)
     assert_equal(hero_hp0.dead?, true)
   end
+  
+  def test_attack
+    assert_equal(@hero.name, 剣撃)
+    assert_equal(@hero.attack, 30)
+  end
+
+
 end
